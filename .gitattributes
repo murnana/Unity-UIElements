@@ -1,0 +1,22 @@
+# Audio
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+# Font
+*.ttf filter=lfs diff=lfs merge=lfs -text
+# Image
+*.png filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+# Model
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+
+# Text
+*.meta   text eol=lf             encoding=utf-8
+*.asset  text eol=lf             encoding=utf-8
+*.prefab text eol=lf             encoding=utf-8
+*.asmdef text eol=lf             encoding=utf-8
+*.cginc  text eol=lf             encoding=utf-8
+*.shader text eol=lf             encoding=utf-8
+*.cs     text eol=lf diff=csharp encoding=utf-8
+*.json   text eol=lf             encoding=utf-8
+*.md     text eol=lf             encoding=utf-8
