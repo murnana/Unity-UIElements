@@ -1,0 +1,41 @@
+.murnana-object-label {
+    flex-direction: row;
+    flex: 1 0 0;
+
+    padding-left: 1px;
+    padding-right: 2px;
+
+    overflow: hidden;
+}
+
+.murnana-object-label__icon {
+    align-self: center;
+
+    max-width: 18px;
+    max-height: 18px;
+
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.murnana-object-label__label {
+    flex: 1 0 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 0;
+    padding-top: 1px;
+
+    overflow: hidden;
+}

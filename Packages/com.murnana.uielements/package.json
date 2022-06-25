@@ -1,0 +1,13 @@
+{
+  "name": "com.murnana.uielements",
+  "displayName": "Murnana UIElements",
+  "author": {
+    "name": "Murnana"
+  },
+  "version": "0.0.1-exp.1",
+  "unity": "2021.3",
+  "unityRelease": "4f1",
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0"
+  }
+}
